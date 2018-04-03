@@ -15,6 +15,9 @@ Invokes the Blue Screen of Death.
 #### Get-DumpSettings
 Returns the current crash dump settings so you'll know what type of dump you are going to generate, and where it is going to be.
 
+More information on the types of dump files here:
+https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/varieties-of-kernel-mode-dump-files
+
 #### Usage:
 ```
 PS>Import-Module .\Invoke-BSOD.ps1
