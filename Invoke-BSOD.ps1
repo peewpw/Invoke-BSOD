@@ -74,7 +74,7 @@ PS>Invoke-BSOD
 	$dumpsettings.DumpFileLocation = $regdata.DumpFile
 	[bool]$dumpsettings.AutoReboot = $regdata.AutoReboot
 	[bool]$dumpsettings.OverwritePrevious = $regdata.Overwrite
-	[bool]$dumpsettings.AutoDeleteWhenLowSpace = $regdata.AlwaysKeepMemoryDump
+	[bool]$dumpsettings.AutoDeleteWhenLowSpace = -not $regdata.AlwaysKeepMemoryDump
 	[bool]$dumpsettings.SystemLogEvent = $regdata.LogEvent
 	$dumpsettings
 }
