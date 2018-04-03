@@ -15,7 +15,7 @@ Invokes the Blue Screen of Death.
 #### Get-DumpSettings
 Returns the current crash dump settings so you'll know what type of dump you are going to generate, and where it is going to be.
 
-Usage:
+#### Usage:
 ```
 PS>Import-Module .\Invoke-BSOD.ps1
 PS>Get-DumpSettings
@@ -31,7 +31,7 @@ PS>Get-DumpSettings
   
 PS>Invoke-BSOD
 ```
-OR...
+#### OR...
 ```
 PS>IEX((New-Object Net.Webclient).DownloadString('https://raw.githubusercontent.com/peewpw/Invoke-BSOD/master/Invoke-BSOD.ps1'));Invoke-BSOD
 ```
